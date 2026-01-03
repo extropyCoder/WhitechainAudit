@@ -1,0 +1,87 @@
+const { ethers } = require("ethers");
+
+const MINUT_1 = 60;
+const DAY_1 = 86400;
+const MONTH_1 = 2592000;
+
+const PERCENT_100 = BigInt(100);
+
+const HARDHAT_ID = 1337;
+const ETHEREUM_MAINNET_ID = 1;
+const ETHEREUM_SEPOLIA_ID = 11155111;
+const WHITECHAIN_MAINNET_ID = 1875;
+const WHITECHAIN_TESTNET_ID = 2625;
+const WHITECHAIN_DEVNET_ID = 1000001000;
+const TRON_NILE_ID = 3448148188;
+const TRON_MAINNET_ID = 728126428;
+
+const TRX_10 = ethers.parseUnits("10", 6); //10 TRX
+const TRX_100 = ethers.parseUnits("100", 6); //100 TRX
+const TRX_1000 = ethers.parseUnits("1000", 6); //1000 TRX
+
+const USDT_05 = ethers.parseUnits("5", 5); //0.5 USDT
+const USDT_1 = ethers.parseUnits("1", 6); //1 USDT
+const USDT_10 = ethers.parseUnits("10", 6); //10 USDT
+const USDT_100 = ethers.parseUnits("100", 6); //100 USDT
+const USDT_1000 = ethers.parseUnits("1000", 6); //1000 USDT
+const USDT_10_000 = ethers.parseUnits("10000", 6); //10000 USDT
+
+const WBT_TOKEN_1 = ethers.parseUnits("1", 8); //1 WBT TOKEN
+const WBT_TOKEN_10 = ethers.parseUnits("10", 8); //10 WBT TOKEN
+const WBT_TOKEN_100 = ethers.parseUnits("100", 8); //100 WBT TOKEN
+const WBT_TOKEN_500 = ethers.parseUnits("500", 8); //500 WBT TOKEN
+const WBT_TOKEN_1000 = ethers.parseUnits("1000", 8); //1000 WBT TOKEN
+const WBT_TOKEN_10_000 = ethers.parseUnits("10000", 8); //10000 WBT TOKEN
+
+const WHITECHAIN_USDC_ADDRESS = "0xF97B9Bf62916f1EB42Dd906a7254603e7b9FC4a7";
+const WHITECHAIN_WWBT_ADDRESS = "0xb044a2a1e3C3deb17e3602bF088811d9bDc762EA";
+
+const WHITECHAIN_TESTNET_USDC_ADDRESS = "0x4320bdf56a5e84c631a990b51c489b9410b7a6cd";
+const WHITECHAIN_TESTNET_WWBT_ADDRESS = "0x1cd97ab75c1ffdfda5a231ee9626deec7d46165b";
+const WHITECHAIN_TESTNET_USDT_ADDRESS = "0xb029c90b1642b507ba924bfc8cbc2826dc19ec4b";
+
+const TRON_WBT_ADDRESS = "TFptbWaARrWTX5Yvy3gNG5Lm8BmhPx82Bt";
+const TRON_USDT_ADDRESS = "TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf";
+
+const NILE_WBT_ADDRESS = "TGa8yeUzkCmuajSedYoPiA9bA8YBnvXvEL";
+const NILE_USDT_ADDRESS = "TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf";
+
+module.exports = {
+    MINUT_1,
+    DAY_1,
+    MONTH_1,
+    PERCENT_100,
+    HARDHAT_ID,
+    ETHEREUM_MAINNET_ID,
+    ETHEREUM_SEPOLIA_ID,
+    WHITECHAIN_MAINNET_ID,
+    WHITECHAIN_TESTNET_ID,
+    WHITECHAIN_DEVNET_ID,
+    TRON_NILE_ID,
+    TRON_MAINNET_ID,
+    TRX_10,
+    TRX_100,
+    TRX_1000,
+    USDT_05,
+    USDT_1,
+    USDT_10,
+    USDT_100,
+    USDT_1000,
+    USDT_10_000,
+    WBT_TOKEN_1,
+    WBT_TOKEN_10,
+    WBT_TOKEN_100,
+    WBT_TOKEN_500,
+    WBT_TOKEN_1000,
+    WBT_TOKEN_10_000,
+    WHITECHAIN_USDC_ADDRESS,
+    WHITECHAIN_WWBT_ADDRESS,
+    WHITECHAIN_TESTNET_USDC_ADDRESS,
+    WHITECHAIN_TESTNET_WWBT_ADDRESS,
+    WHITECHAIN_TESTNET_USDT_ADDRESS,
+    TRON_WBT_ADDRESS,
+    TRON_USDT_ADDRESS,
+    NILE_WBT_ADDRESS,
+    NILE_USDT_ADDRESS
+};
+
